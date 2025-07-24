@@ -38,3 +38,31 @@ HealthMate/
 ├── requirements.txt
 └── README.md
 
+---
+
+## ✅ Setup Instructions
+
+### 1. Clone the Repository
+git clone https://github.com/YOUR_USERNAME/HealthMate.git
+cd HealthMate
+
+2. Create Virtual Environment (Optional but Recommended)
+python -m venv venv
+venv\Scripts\activate  # On Windows
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the App
+streamlit run app/main.py
+🧠 Model Info
+The machine learning model is a simple Decision Tree Classifier trained on synthetic health data.
+
+📄 Sample Output
+The app generates a health report PDF with inputs and risk level.
+
+📧 Optional: Enable Email Feature
+To enable email, configure SMTP in utils/email_service.py.
+
+📃 License
+MIT License – feel free to use and adapt!
